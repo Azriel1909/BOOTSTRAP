@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bootstrap 1st tutorial</title>
+    <!--Estilos en el HEAD-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <h1>Hola soy Ximena</h1>
+  <!--Cuando trabajamos con Css para realizar sitios responsive, tenemos puntos de quiebre y estan definidos en Bootstrap-->
+  <!--TEMA 1 - Available Breakpoints
+  -sm
+  -md
+  -lg
+  -xl
+  -xxl
+  -->
+  <!--TEMA 2 - Container
+  Las clases ya están creadas-->
+  <div class="container">
+    <h1>Hola soy Ximena</h1>
+    <!--Genera un espaciado en el contenido, si lo vemos en pantalla más pequeñitas, el container se va haciendo más pequeño, las clases ya están predefinidas-->
+  </div>
+  <!--TEMA 3 - GRID - Es una rejilla, nos permite realizar columnas responsivas
+  REGLA 1 - Envolver todo en un container
+  REGLA 2 - Crear una fila row
+  REGLA 3 - Crear las columnas-->
+  <div class="container"> 
+    <div class="row">
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+      <div class="col-1 border">1</div>
+    </div>
+    <div class="row">
+      <div class="col-4 border">4</div>
+      <div class="col-4 border">4</div>
+      <div class="col-4 border">4</div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-6 border">3</div>
+      <div class="col-12 col-sm-6 border">3</div>
+      <div class="col-12 col-sm-6 border">3</div>
+      <div class="col-12 col-sm-6 border">3</div>
+      <div class="col-12 col-sm-12 border">3</div>
+      <!--REGLA GRID - Siempre debemos tener una medida sin apellido(col-12), amenos que sea un diseño específico-->
+    </div>
+  </div>
+</body>
+</html>
